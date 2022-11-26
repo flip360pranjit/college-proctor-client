@@ -1,0 +1,60 @@
+.create-question-container
+{
+    margin: 6rem;
+}
+.heading
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading .save-question
+{
+    border: none;
+    background-color: #54B435;
+    padding: 0.3125rem 2rem;
+    color: white;
+    font-weight: 500;
+    font-family: "Poppins";
+}
+.heading .save-question:hover
+{
+    background-color: #379237;
+}
+.create-question-div
+{
+    outline: 1.9px solid grey;
+    padding: 2rem;
+    border-radius: 5px;
+}
+.create-question-div .heading div i,label
+{
+    margin-right: 0.625rem !important;
+}
+.create-question-div .heading div span,label
+{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.points input
+{
+    width: 4rem;
+}
+.question-details
+{
+    margin-top: 2rem;
+}
+.question-details input:first-child
+{
+    width: 100%;
+    padding: 10px;
+}
+.question-details div div
+{
+    margin-top: 1.25rem;
+}
+.question-details div div input
+{
+    width: 97%;
+    padding: 0.3125rem 0.625rem;
+}

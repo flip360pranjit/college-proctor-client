@@ -1,0 +1,17 @@
+{
+  "folders": [
+	{
+		"path": "../../../../VS Code"
+	},
+	{
+		"path": "../.."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Cyber_Bot",
+    "files.associations": {
+      "*.ejs": "html",
+      "iostream": "cpp"
+    }
+  }
+}

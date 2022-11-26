@@ -1,0 +1,425 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/****************************************** Navbar ************************************************/
+.nav-div
+{
+    background-image: linear-gradient(to right, #363FB5, #00A36D);
+    padding: 0 5rem;
+}
+.nav-txt
+{
+    color: white !important;
+    padding-left: 2.5rem !important;
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: 700;
+}
+.nav-txt:hover
+{
+    text-decoration: underline;
+}
+.logo
+{
+    width: 3.4rem;
+    padding-right: 1rem;
+}
+.logo-txt
+{
+    font-size: 1.5rem;
+    font-family: "Poppins";
+}
+
+
+/****************************************** Home Content ************************************************/
+.home-content
+{
+    background-color: #E1FFEE;
+    padding-bottom: 100px;
+}
+.home-heading
+{
+    text-align: center !important;
+    font-size: 4rem;
+    font-weight: 700;
+    padding-top: 4.5rem;
+}
+.heading-motto
+{
+    text-align: center;
+    padding-top: 2rem;
+}
+.button-div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.take-test
+{
+    padding: 8px 70px;
+    background-image: linear-gradient(90deg, #830BD5 0%, #9105D0 23.23%, #9104d0 36.25%, #d3095a 88.33%);
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+.take-test:hover
+{
+    color: white;
+    background-image: linear-gradient(90deg, #5800FF, #E80F88);
+    text-decoration: underline;
+}
+.create-test
+{
+    padding: 6px 60px;
+    border-width: 4px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #830BD5 0%, #9105D0 23.23%, #9104d0 36.25%, #d3095a 88.33%) 1;
+    font-size: 1.5rem;
+    color: black;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+.create-test:hover
+{
+    background-image: linear-gradient(90deg, #FF99D7, #FFABE1);
+    color: black;
+    text-decoration: underline;
+}
+.advertisement-div
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.left-img
+{
+    width: 300px;
+}
+.right-img
+{
+    width: 300px;
+}
+
+
+/****************************************** Features ************************************************/
+.feature-div
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(90deg, #830BD5 0%, #9105D0 23.23%, #9104d0 36.25%, #d3095a 88.33%);
+}
+.feature
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.feature h3,h5
+{
+    color: white;
+}
+
+/******************************************** Footer *************************************************/
+.pre-footer
+{
+    height: 4rem;
+    background-color: #E1FFEE;
+}
+.footer
+{
+    background-color: #1B2430;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+.footer h6
+{
+    color: white;
+}
+.left-footer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.left-footer div
+{
+    margin-bottom: 30px;
+}
+.left-footer div h5
+{
+    display: inline-block;
+}
+.right-footer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.right-footer a
+{
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+.right-footer a:hover
+{
+    color: white;
+    text-decoration: underline;
+}
+
+/******************************************** Authenticate **********************************************/
+.authenticate-page
+{
+    background-color: #CDF0EA;
+    padding: 80px 200px;
+}
+.authenticate-page h1
+{
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 3rem;
+    font-weight: 400;
+}
+.authenticate-page hr
+{
+    border: none;
+    border-top: 5px solid black;
+    border-color: black !important;
+}
+.auth-content
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left-div img
+{
+    height: 400px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.form-div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.right-div
+{
+    background-color: #5F9DF7;
+    height: 400px;
+    padding: 50px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.form-div h3
+{
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.form-div form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form-div form input
+{
+    display: block;
+    height: 35px;
+    width: 300px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    border: none;
+    padding: 0 5px;
+}
+.form-div form input:focus
+{
+    outline: none;
+    border-bottom: 3px solid #C4DFAA;
+}
+.authenticate-btn
+{
+    margin-top: 10px;
+    width: 300px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #FD841F;
+    color: #FFFF;
+}
+.authenticate-btn:hover{
+    background-color: #E14D2A;
+}
+.google-btn
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFF;
+    color: black;
+}
+.google-btn:hover
+{
+    background-color: #1746A2;
+    color: #FFFF;
+}
+.google-btn img
+{
+    height: 30px;
+    margin-right: 5px;
+}
+.form-div p
+{
+    color: #FFFF;
+    margin-top: 20px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.form-div p:hover
+{
+    font-weight: 500;
+}
+.error-message
+{
+    color: #FF1E1E;
+    text-shadow: 3px 3px 10px #FFFF,
+    -2px 1px 10px #FFFF;
+}
+
+/********************************************* Instructor *******************************************/
+
+.create-test-nav
+{
+    padding: 0 5rem;
+    background-color: #16213E;
+}
+.create-test-menu
+{
+    background-color: #16213E;
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding: 18px 10px 30px 10px;
+}
+.create-test-menu a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display: block;
+    margin: 35px 20px;
+}
+.create-test-menu a .menu-icons
+{
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+.create-test-menu a:hover .menu-arrows
+{
+    margin-right: 15px;
+}
+.create-test-home-content
+{
+    display: block;
+    margin-left: 300px;
+    padding: 50px;
+}
+.create-test-heading
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.create-test-heading a
+{
+    color: #2192FF;
+    text-decoration: none;
+}
+.create-test-heading a:hover
+{
+    text-decoration: underline;
+}
+.continue-div
+{
+    margin-top: 40px;
+    margin-left: 0;
+}
+.continue-div button
+{
+    text-decoration: none;
+    border: none;
+    color: white;
+    padding: 16px 90px;
+    background-color: #16213E;
+    border-radius: 3px;   
+}
+.continue-div button:hover
+{
+    background-color: #028090;
+}
+.continue-arrow
+{
+    margin-left: 10px;
+}
+.create-test-content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo-link
+{
+    margin-top: 0 !important;
+}
+.logo-link .logo-txt:hover
+{
+    color: white !important;
+}
+
+/********************************************** Create Test *************************************************/
+
+.test-details
+{
+    align-items: flex-start;
+    margin-top: 2rem;
+}
+.test-details form
+{
+    align-items: flex-start;
+}
+.test-details form input
+{
+    outline: 1px solid black;
+    border-radius: 0;
+    height: 3rem;
+    margin-top: 10px;
+}
